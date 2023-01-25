@@ -7,7 +7,7 @@ import os
 #intall python-dotenv in terminal
 from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] =os.getenv('FLASK_KEY')
