@@ -15,6 +15,8 @@ I had to experiment with character IDs, comic IDs, to find the right results so 
 -Other had to experiment with Flash messages for the error message.
 -API keys are hidden 
 
+-unfortunately Marvel does not allow calls from domains outside Marvel, so I cannot upload this to a site like Render.
+
 *Must sign up for API keys on Marvel Site to use
 
 <img width="1264" alt="Screenshot 2023-01-24 at 10 48 00 PM" src="https://user-images.githubusercontent.com/51424392/214501955-cfaa06fc-d0b6-4ca0-981c-4c1a27fba84b.png">
