@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <link href="{{ url_for('static', filename='/styles.css')}}" rel="stylesheet">
+
+</head>
+<body>
+<div class="photo">
+</div>
+
+<!-- bubble introducing a scene -->
+<div class="bubble top">
+  Looking for a comic to read? <strong>Let the <span style="color:red;">Marvel</span> comic discoverer help!</strong>
+</div>
+
+
+<form class="hero" action="/" method="POST">
+    <div align="center" >
+     <input id="textinput" type="text" name="hero" placeholder="Enter Character" required><br>
+    </div>
+    <p class="hint">Try "Scarlet Witch", "Loki", "Groot", "Spider-Man" & More</p>
+    <p class="error">
+    {% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+{{ message }}
+{% endfor %}
+{% endif %}
+{% endwith %}
+        </p>
+    <button class="button bubble bubble--highlight" type="submit" value="submit">I Can Do This All Day</button>
+  </form>
+
+
+<footer>
+    <p>Janelle Myers 2023.</p> <a href=\"http://marvel.com\">Data provided by Marvel. © 2023 MARVEL</a>
+    <p>Photo from Unsplash</p>
+</footer>
+</body>
+</html>

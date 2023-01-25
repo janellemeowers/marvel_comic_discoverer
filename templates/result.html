@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comic Result</title>
+    <link href="{{ url_for('static', filename='/res_styles.css')}}" rel="stylesheet">
+</head>
+<body>
+  <div class="result">
+<img src={{ image }}>
+<div class="text">
+  <br />
+<h1>{{ title }}</h1>
+<h2><i>{{ des }}</i></h2>
+<a href={{ url }}><h3>Buy Comic</h3></a>
+    <form method="post" action = "/result" >
+<button class="button bubble" type="Submit" name="again" value="submit">Go Again!</button>
+        <button class="button bubble back" type="Submit" name="back">Back to Search</button>
+    </form>
+
+</div>
+</div>
+</body>
+</html>

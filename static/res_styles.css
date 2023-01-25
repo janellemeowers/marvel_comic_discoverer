@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dekko|Lato:900|Rock+Salt");
+
+body {
+  background-color:black;
+  color: white;
+  font-family: Marvel;
+  text-align: center;
+  position: relative;
+  top: 20px;
+
+
+}
+
+h3 {
+    color: #FEC868;
+    font-size: 1.4em;
+}
+
+img {
+    width:28%;
+    float: left;
+    margin-left: 150px;
+    padding: 50px;
+
+}
+
+@media only screen and (max-width: 600px){
+  img {
+    float:none;
+    width: 50%;
+    margin-left: 75px;
+    padding: 20px;
+  }
+}
+
+.result {
+
+text-align: left;
+
+}
+
+.text {
+  padding: 30px;
+
+
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+
+.bubble {
+  padding: 0.2rem 1.25rem;
+  text-align: center;
+  font-family: "Dekko", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background: #ffcd28;
+  font-weight: 700;
+  font-size: 20px;
+  background:url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.8" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23d68810"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),#ffbb28;
+  background-size: 13px, 100%;
+  border: 0.4rem solid #000;
+
+}
+
+.bubble:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    top: 5px;
+    background: red;
+    }
+
+.back {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(0)" opacity="0.2" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
+   white;
+    background-size: 13px, 100%;
+}
