@@ -18,7 +18,7 @@ Challenges & what I learned:
 -Unfortunately Marvel does not allow calls from domains outside Marvel, so I cannot upload this to a site like Render.
 
 *Must sign up for API keys on Marvel Site to use:
-<a href="https://developer.marvel.com/docs">Documentation>
+<a href="https://developer.marvel.com/docs">Documentation
 
 
 <img width="1264" alt="Screenshot 2023-01-24 at 10 48 00 PM" src="https://user-images.githubusercontent.com/51424392/214501955-cfaa06fc-d0b6-4ca0-981c-4c1a27fba84b.png">
