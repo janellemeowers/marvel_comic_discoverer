@@ -16,3 +16,5 @@ I had to experiment with character IDs, comic IDs, to find the right results so 
 -API keys are hidden 
 
 <img width="1264" alt="Screenshot 2023-01-24 at 10 48 00 PM" src="https://user-images.githubusercontent.com/51424392/214501955-cfaa06fc-d0b6-4ca0-981c-4c1a27fba84b.png">
+
+<img width="1310" alt="Screenshot 2023-01-24 at 11 43 36 PM" src="https://user-images.githubusercontent.com/51424392/214507568-917ba8b1-ce00-4245-ba98-3aa157ef8430.png">
